@@ -7,7 +7,7 @@
 <style>
 
 .plane1 {
-  animation: 3s ease-out infinite flyup;
+  animation: 5s ease-in-out infinite flyup;
   transform-origin: center;
 }
 
@@ -15,6 +15,7 @@
 
   0% {
     transform: scale(.6) translate(67px, -50px);
+    opacity: 0;
   }
 
   85% {
@@ -30,13 +31,19 @@
 
 
 .plane2 {
-  animation: 3s ease-out infinite flydown;
+  animation: 3s ease-in-out infinite flydown;
   transform-origin: center;
 }
 
 @keyframes flydown {
   0% {
     transform: scale(1) translate(0px, 0px);
+    opacity: 0;
+  }
+
+  85% {
+    transform: scale(.7) translate(-72px, 54px);
+    opacity: 1;
   }
 
   100% {

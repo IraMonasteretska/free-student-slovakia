@@ -23,13 +23,13 @@
       <div class="header__top">
         <div class="container">
           <div class="row">
-            <div class="col-10">
+            <div class="col-md-10">
               <div class="header__top-social">
                 <a href="tel:+38 099 262 75 04" class="header__top-phone">+38 099 262 75 04</a>
                 <a href="mailto:offfice.free.student.slovakia@gmail.com">offfice.free.student.slovakia@gmail.com</a>
               </div>
             </div>
-            <div class="col-2 d-flex justify-content-end">
+            <div class="col-md-2 d-flex justify-content-end">
               <div class="header__top-lang">
                 <a href="#">ua</a>
                 <a href="#">ru</a>
@@ -42,14 +42,45 @@
       <div class="header__bottom">
         <div class="container">
           <div class="row">
-            <div class="col-2">
+            <div class="col-lg-2 col-6">
               <div class="header__logo">
                 <a href="index.html">
                   <img src="img/header_logo.png" alt="FREE students">
                 </a>
               </div>
             </div>
-            <div class="col-10 d-flex justify-content-end">
+            <div class="col-lg-10 col-6 d-flex justify-content-end align-items-center">
+
+              <div class="burger__btn">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="15.5" cy="15.5" r="15.5" fill="#5E85C1" />
+                  <path class="line1" d="M15 10L23 10" stroke="#FFF8F8" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path class="line2" d="M8.20605 15.5L22.7943 15.5" stroke="#FFF8F8" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                  <path class="line3" d="M8 21H16" stroke="#FFF8F8" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+
+              </div>
+
+              <nav class="mobile__menu">
+                <ul>
+                  <li><a href="index.html">Головна</a></li>
+                  <li><a href="#">Університети</a></li>
+                  <li><a href="#">Курс cловацької мови</a></li>
+                  <li><a href="#">Новини</a></li>
+                  <li><a href="#">Відгуки</a></li>
+                  <li><a href="#">Про нас</a></li>
+                  <li><a href="#">Контакти</a></li>
+                </ul>
+                <div class="mobile-lang">
+                  <a href="#">ua</a>
+                  <a href="#" class="active">ru</a>
+                </div>
+              </nav>
+
+
               <nav class="header__menu">
                 <ul>
                   <li><a href="index.html">Головна</a></li>
@@ -75,8 +106,8 @@
         <img class="welcomescreen__plane" src="img/svg/welcomescreen_plane.svg" alt="image">
 
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
+          <div class="row justify-content-start">
+            <div class="col-lg-6 order-2 order-lg-1 welcomescreen__content">
               <div class="welcomescreen__title">
                 <h1>
                   <span>Безкоштовна</span> освіта у Словаччині для Українців!
@@ -90,6 +121,9 @@
                 <a href="#">Подати заяву</a>
               </div>
 
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img class="welcomescreen__mobile-bg" src="img/svg/mobile_bg.svg" alt="image">
             </div>
           </div>
         </div>
@@ -127,9 +161,11 @@
             </div>
             <div class="col-lg-7">
               <div class="info__content section-text">
-                <h2>
-                  Європейське безкоштовне навчання доступне кожному!
-                </h2>
+                <div class="info__title section-title">
+                  <h2>
+                    Європейське безкоштовне навчання доступне кожному!
+                  </h2>
+                </div>
                 <p>
                   Програма Free Student представляє Європейську освіту. Програма передбачає безкоштовне навчання
                   українських студентів у Словацькій Республіці, яке фінансується урядом Словаччини.
@@ -151,7 +187,7 @@
         <img src="img/svg/specialty_frame.svg" alt="img" class="specialty__frame">
         <div class="container">
           <div class="row">
-            <div class="col-lg-7 d-flex justify-content-lg-end">
+            <div class="col-xl-7 d-flex justify-content-xl-end justify-content-center">
               <div class="specialty__content">
                 <div class="specialty__title">
                   <h2>
@@ -167,7 +203,7 @@
 
 
             </div>
-            <div class="col-lg-5 d-flex justify-content-lg-end">
+            <div class="col-xl-5 d-flex align-items-center justify-content-xl-end justify-content-center">
               <div class="specialty__btn">
                 <a href="#">
                   <img src="img/svg/specialty_btn_icon.svg" alt="image">
@@ -176,7 +212,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
 
       <section class="university">
         <div class="university__top">
@@ -281,14 +317,14 @@
 
         </div>
 
-      </section>
+      </section> 
 
       <section class="courses">
 
         <img class="courses__frame" src="img/svg/courses_frame.svg" alt="курси">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-xl-7 col-lg-6 order-2 order-lg-1">
               <div class="courses__content">
                 <div class="courses__title section-title">
                   <h2>
@@ -312,13 +348,13 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-xl-5 col-lg-6 order-1 order-lg-2 text-center">
               <img class="courses__bg" src="img/svg/courses_bg.svg" alt="img">
             </div>
           </div>
 
         </div>
-      </section>
+      </section> 
 
       <section class="stages">
 
@@ -395,7 +431,7 @@
             <a href="#">Подати заявку</a>
           </div>
         </div>
-      </section>
+      </section> 
 
       <section class="reviews" id="rewiews">
         <img src="img/svg/courses_frame.svg" alt="image" class="rewiews__frame">
@@ -526,9 +562,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
 
-    </main> 
+    </main>
 
     <footer class="footer">
       <div class="footer__top">
@@ -614,7 +650,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> 
 
   </div>
 
