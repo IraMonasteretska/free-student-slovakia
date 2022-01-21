@@ -350,7 +350,7 @@
   }
   .photo3{
     animation: 4s ease-in-out  infinite photo;
-    transform-origin: 5% 49%;
+    transform-origin: 3% 61%;
   }
   
   @keyframes photo{
