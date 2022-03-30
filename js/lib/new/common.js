@@ -2,7 +2,7 @@ $(document).ready(function () {
     // input mask
     if ($(".phoneinp").length) {
         $('.phoneinp').inputmask({
-            "mask": "99 /999/ 9999999",
+            "mask": "+380 99 /99/ 99999",
             showMaskOnHover: false,
             showMaskOnFocus: false,
         });
