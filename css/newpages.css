@@ -1,0 +1,710 @@
+.header__top-lang:after {
+    display: none;
+}
+
+.header__top-lang a {
+    position: relative;
+}
+
+.header__top-lang a::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 13px;
+    background: #999999;
+    top: 50%;
+    left: 30px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header__top-lang a:last-child:after {
+    display: none;
+}
+
+.welcomescreen.nomenkfs .welcomescreen__title h1 {
+    font-size: 40px;
+}
+
+.welcomescreen.nomenkfs .welcomescreen__title p {
+    line-height: 150%;
+}
+
+.welcomescreen.nomenkfs .welcomescreen__title {
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+
+
+/* ------------- */
+.nomenk {
+    padding: 80px 0 180px 0;
+}
+
+.nomenk__row {
+    margin-bottom: 80px;
+}
+
+.nomenk__row:last-child {
+    margin-bottom: 0;
+}
+
+.nomenk__row .imgwrap img {
+    max-width: 100%;
+}
+
+.nomenk__row .textwrap {
+    color: #323232;
+    letter-spacing: 0.01em;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.nomenk__row .textwrap p {
+    margin-bottom: 10px;
+}
+
+.nomenk__row .textwrap p:last-child {
+    margin-bottom: 0;
+}
+
+.nomenk__row .textwrap ol li {
+    list-style-type: inherit;
+}
+
+.nomenk .nomenk__row h2,
+.nomenk .nomenk__row h3,
+.nomenk .nomenk__row h4,
+.nomenk .nomenk__row h5,
+.nomenk .nomenk__row h6 {
+    margin-bottom: 40px;
+}
+
+.nomenk__row h2 {
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.nomenk__row h3 {
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+/* ----------- */
+.lightbluebg {
+    background: #ECF3FF;
+}
+
+.nomenk.paddsect {
+    padding: 130px 0;
+}
+
+.nomenk__row .textwrap ol {
+    padding-left: 20px;
+}
+
+.nomenk__row .textwrap ol li {
+    margin-bottom: 5px;
+}
+
+.nomenk.lightbluebg .row:nth-child(odd) .imgwrap.bigpic {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nomenk.lightbluebg .row:nth-child(even) .imgwrap.bigpic {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nomenk.lightbluebg .row:nth-child(odd) .imgwrap.bigpic img {
+    max-width: initial;
+    margin-left: 80px;
+}
+
+.nomenk.lightbluebg .row:nth-child(even) .imgwrap.bigpic img {
+    max-width: initial;
+    margin-right: 80px;
+}
+
+/* ------------ */
+
+.estimates {
+    padding: 180px 0 0 0;
+}
+
+.estimates__textbox h3 {
+    margin-bottom: 40px;
+    color: #313131;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.estimates__textbox {
+    color: #323232;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-bottom: 80px;
+}
+
+.estimates__textbox p {
+    margin-bottom: 10px;
+}
+
+.estimates__textbox p:last-child {
+    margin-bottom: 0;
+}
+
+.estimates__textbox ol {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.estimates__textbox ol li {
+    list-style-type: inherit;
+    margin-bottom: 5px;
+}
+
+.estimates__textbox ol li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ------------------------ */
+.nomenk__row .textwrap p.litttext {
+    color: #999999;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.magbenefits {
+    padding: 130px 0 30px;
+}
+
+.magbenefits__infotext h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+}
+
+.magbenefits__infotext p {
+    color: #323232;
+    letter-spacing: 0.01em;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+
+.magbenefits__infotext p:last-child {
+    margin-bottom: 0;
+}
+
+.magbenefits__list {
+    margin-top: 55px;
+}
+
+.magbenefit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.magbenefit__icon {
+    width: 100%;
+    max-width: 117px;
+    flex: 0 0 117px;
+
+}
+
+.magbenefit__icon img {
+    width: 100%;
+}
+
+.magbenefit__descr {
+    width: 100%;
+    max-width: calc(100% - 117px);
+    flex: 0 0 calc(100% - 117px);
+    padding-left: 20px;
+}
+
+.magbenefit__descr p {
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.magbenefit__descr p span {
+    color: #95BAF3;
+}
+
+.nomenk.nomenk__mag {
+    padding: 180px 0 100px;
+}
+
+.nomenk.nomenk__mag h3 {
+    font-size: 36px;
+}
+
+.textwrap.small {
+    max-width: 430px;
+}
+
+.nomenk__row .textwrap ol {
+    margin-bottom: 10px;
+}
+
+.imgwrap {
+    text-align: center;
+}
+
+.faq.faq__mag h3 {
+    margin-bottom: 55px;
+    color: #313131;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.faq.faq__mag .faqwrapper {
+    width: calc(100% + 80px);
+    margin-left: -40px;
+}
+
+.faq.faq__mag .faq__header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #313131;
+}
+
+.faq.faq__mag .faq__body p {
+    color: #838080;
+    letter-spacing: 0.01em;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.faq.faq__mag .faq__body p a {
+    color: #95BAF3;
+}
+
+.pt0 {
+    padding-top: 0 !important;
+}
+
+.nomenk__row .textwrap p span {
+    color: #95BAF3;
+}
+
+.yourbenefit {
+    padding: 130px 0 235px;
+    margin-top: 178px;
+}
+
+.yourbenefit h3 {
+    margin-bottom: 40px;
+    color: #313131;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+}
+
+.yourbenefit p {
+    margin-bottom: 30px;
+    color: #323232;
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.yourbenefit p:last-child {
+    margin-bottom: 0;
+}
+
+.yourbenefit ul {
+    margin-bottom: 30px;
+    color: #323232;
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 509px;
+}
+
+.yourbenefit ul li {
+    margin-bottom: 15px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.yourbenefit ul:last-child {
+    margin-bottom: 0;
+}
+
+.yourbenefit ul li span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 34px;
+    background: url('../img/nomenkulatura/listbgmark.png') no-repeat center top / 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    letter-spacing: 0.01em;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.yourbenefit__imgwrap {
+    position: relative;
+}
+
+.yourbenefit__imgwrap img {
+    max-width: 660px;
+}
+
+.faq.faq__mag {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1600.8px) {
+    .welcomescreen.nomenkfs .welcomescreen__title h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:1400.8px) {
+    .welcomescreen.nomenkfs .welcomescreen__title {
+        max-width: 450px;
+    }
+
+    .estimates {
+        padding-bottom: 100px;
+    }
+
+    .yourbenefit {
+        margin-top: 70px;
+    }
+}
+
+@media(max-width:1199.8px) {
+    .welcomescreen.nomenkfs .welcomescreen__title h1 {
+        font-size: 30px;
+    }
+
+    .welcomescreen.nomenkfs .welcomescreen__title {
+        max-width: 350px;
+    }
+
+    .nomenk__row h2,
+    .nomenk__row h3 {
+        font-size: 30px;
+    }
+
+    .nomenk {
+        padding: 40px 0 100px 0;
+    }
+
+    .nomenk.paddsect {
+        padding: 100px 0;
+    }
+
+    .nomenk.lightbluebg .row:nth-child(odd) .imgwrap.bigpic img,
+    .nomenk.lightbluebg .row:nth-child(even) .imgwrap.bigpic img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .estimates {
+        padding: 100px 0 180px;
+    }
+
+    .magbenefits {
+        padding-top: 100px;
+    }
+
+    .magbenefits__infotext h2,
+    .faq.faq__mag h3,
+    .nomenk.nomenk__mag h3,
+    .yourbenefit h3 {
+        font-size: 30px;
+    }
+
+    .magbenefit__icon {
+        max-width: 80px;
+        flex: 0 0 80px;
+    }
+
+    .magbenefit__descr {
+        max-width: calc(100% - 80px);
+        flex: 0 0 calc(100% - 80px);
+    }
+
+    .magbenefit__descr {
+        padding-right: 20px;
+    }
+
+    .magbenefit {
+        margin-bottom: 70px;
+    }
+
+    .nomenk.nomenk__mag {
+        padding-top: 100px;
+    }
+
+    .faq.faq__mag .faq__header {
+        font-size: 26px;
+    }
+
+    .estimates.estimatesmag {
+        padding-bottom: 100px;
+    }
+
+    .yourbenefit__imgwrap img {
+        max-width: 100%;
+    }
+
+    .yourbenefit p,
+    .yourbenefit ul {
+        font-size: 18px;
+    }
+
+   
+
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .welcomescreen.nomenkfs .welcomescreen__content {
+        padding-top: 170px;
+    }
+
+    .nomenk__row .imgwrap {
+        text-align: center;
+    }
+
+    .nomenk .nomenk__row h2,
+    .nomenk .nomenk__row h3,
+    .nomenk .nomenk__row h4,
+    .nomenk .nomenk__row h5,
+    .nomenk .nomenk__row h6 {
+        margin-bottom: 30px;
+    }
+
+    .nomenk.lightbluebg .row:nth-child(odd) .imgwrap.bigpic,
+    .nomenk.lightbluebg .row:nth-child(even) .imgwrap.bigpic {
+        justify-content: center;
+    }
+
+    .nomenk.lightbluebg .row:nth-child(even) .col-lg-6:nth-child(1) {
+        order: 2;
+    }
+
+    .nomenk.lightbluebg .row:nth-child(even) .col-lg-6:nth-child(2) {
+        order: 1;
+    }
+
+    .mobile-lang:after {
+        display: none;
+    }
+
+    .header__top-lang a+a {
+        margin-left: 9px;
+    }
+
+    .header__top-lang a::after {
+        left: 28px;
+    }
+
+    .tabletmb {
+        margin-bottom: 30px;
+    }
+
+    .magbenefit {
+        margin-bottom: 40px;
+    }
+
+    .yourbenefit {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:767.8px) {
+
+    .welcomescreen.nomenkfs .welcomescreen__title h1 {
+        font-size: 24px;
+    }
+
+    .welcomescreen.nomenkfs .welcomescreen__title {
+        max-width: 260px;
+    }
+
+
+    .welcomescreen.nomenkfs .welcomescreen__content {
+        padding-bottom: 50px;
+    }
+
+    .nomenk__row .textwrap,
+    .estimates__textbox {
+        font-size: 16px;
+    }
+
+    .nomenk__row h2,
+    .nomenk__row h3,
+    .estimates__textbox h3 {
+        font-size: 26px;
+    }
+
+    .nomenk .nomenk__row h2,
+    .nomenk .nomenk__row h3,
+    .nomenk .nomenk__row h4,
+    .nomenk .nomenk__row h5,
+    .nomenk .nomenk__row h6,
+    .estimates__textbox h3 {
+        margin-bottom: 20px;
+    }
+
+    .nomenk.paddsect {
+        padding: 70px 0;
+    }
+
+    .estimates {
+        padding: 70px 0 150px;
+    }
+
+    .estimates__textbox,
+    .nomenk__row {
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+@media(max-width:575.8px) {
+    .welcomescreen.nomenkfs .welcomescreen__content {
+        padding-top: 400px;
+    }
+
+    .welcomescreen.nomenkfs .welcomescreen__title {
+        max-width: 300px;
+    }
+
+    .welcomescreen.nomenkfs .welcomescreen__title {
+        max-width: 100%;
+    }
+
+    .nomenk__row h2,
+    .nomenk__row h3,
+    .estimates__textbox h3 {
+        font-size: 20px;
+    }
+
+    .nomenk {
+        padding-bottom: 70px;
+    }
+
+    .magbenefits {
+        padding-top: 70px;
+    }
+
+    .magbenefits__infotext h2, .faq.faq__mag h3, .nomenk.nomenk__mag h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .magbenefits__infotext p,
+    .magbenefit__descr p {
+        font-size: 16px;
+    }
+
+    .magbenefit__icon {
+        max-width: 60px;
+        flex: 0 0 60px;
+    }
+
+    .magbenefit__descr {
+        max-width: calc(100% - 60px);
+        flex: 0 0 calc(100% - 60px);
+    }
+
+    .nomenk.nomenk__mag {
+        padding-top: 70px;
+    }
+
+    .faq.faq__mag .faqwrapper {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .faq.faq__mag .faq__header {
+        padding-left: 0;
+        font-size: 18px;
+    }
+
+    .faq.faq__mag .faq__row .faq__header:before {
+        left: -5px;
+    }
+
+    .faq.faq__mag .faq__body p,
+    .yourbenefit p, .yourbenefit ul {
+        font-size: 16px;
+    }
+
+    .estimates.estimatesmag {
+        padding-bottom: 70px;
+    }
+
+    .yourbenefit h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .yourbenefit {
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+
+
+}
